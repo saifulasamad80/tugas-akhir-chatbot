@@ -18,7 +18,7 @@ if api_key_input:
     # Temperature 0.2 memastikan format output selalu rapi dan tidak melenceng.
     konfigurasi_sistem = genai.GenerationConfig(
         temperature=0.2,
-        max_output_tokens=800,
+        max_output_tokens=2000,
     )
     
     # --- INSTRUKSI UTAMA (SYSTEM PROMPT) ---
